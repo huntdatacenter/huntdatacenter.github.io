@@ -13,8 +13,10 @@ layout: default
             <h3><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                 {{ post.title }}
             </a></h3>
-            <span>{{ post.excerpt }}</span>
-            <a href="{{ post.url }}">Read more ..</a>
+            <span>{{ post.content }}</span>
+            <!-- Replace content with excerpt only -->
+            <!-- <span>{{ post.excerpt }}</span>
+            <a href="{{ post.url }}">Read more ..</a> -->
         </li>
     {% endfor %}
 </ul>
