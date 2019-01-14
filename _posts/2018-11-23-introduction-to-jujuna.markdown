@@ -14,7 +14,7 @@ New to [Juju](https://jujucharms.com/)? Juju is a cool controller and agent base
 
 ## What does Jujuna do?
 
-Jujuna validates OpenStack upgrades from a specific Juju bundle to a new predefined set of charm revisions. First, Jujuna automates the deployment of a specific OpenStack Juju bundle into a testing stack. Next, it automates the upgrade process to a new set of specific software versions, including rolling upgrade of HA configurations. Then, it validates the infrastructure status during and after the deployment. Finally, it can clean up the deployment.
+Jujuna validates OpenStack charms upgrades from a specific bundle definition to a new OpenStack release. First, Jujuna automates the deployment of a specific OpenStack bundle with Juju into a testing stack. Next, it automates the upgrade of both the charms revisions and the actual OpenStack upgrade, including rolling upgrade of HA configurations based on the [OpenStack Charms Deployment Guide](https://docs.openstack.org/project-deploy-guide/charm-deployment-guide/latest/app-upgrade-openstack.html). Then, it validates the infrastructure status during and after the deployment. Finally, it can clean up the deployment.
 
 ## Why did we write Jujuna?
 
