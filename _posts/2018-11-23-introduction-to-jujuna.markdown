@@ -88,4 +88,4 @@ Follow us on GitHub (https://github.com/huntdatacenter)
 
 HUNT Cloud team: Matus Kosut, Sandor Zeestraten, Tom-Erik Røberg, Oddgeir Lingaas Holmen.
 
-HUNT Cloud is affiliated to the HUNT Research Centre, Department of Public Health and Nursing, Faculty of Medicine and Health Sciences, [HUNT](https://www.ntnu.edu/), Norway.
+HUNT Cloud is affiliated to the HUNT Research Centre, Department of Public Health and Nursing, Faculty of Medicine and Health Sciences, [NTNU](https://www.ntnu.edu/), Norway.
