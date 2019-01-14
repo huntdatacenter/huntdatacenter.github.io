@@ -6,7 +6,7 @@ author: "<a href='https://github.com/matuskosut' target='_blank'>Matúš Košút
 categories: jujuna introduction update
 ---
 
-At [HUNT Cloud](https://www.ntnu.edu/huntgenes/hunt-cloud) we run our scientific services based on OpenStack orchestrated by Juju. Such cloud deployments rely on a large set of collaborative softwares, and upgrades can sometimes cause considerable pain. We are therefore introducing [Jujuna](https://github.com/huntdatacenter/jujuna) - a tool to simplify the validation of Juju-based OpenStack upgrades.
+At [HUNT Cloud](https://www.ntnu.edu/huntgenes/hunt-cloud) we run our scientific services based on OpenStack orchestrated by Juju. Such cloud deployments rely on a large set of collaborative softwares, and upgrades can sometimes cause considerable pain. We are therefore introducing [Jujuna](https://github.com/huntdatacenter/jujuna) - a tool to simplify the validation of OpenStack upgrades with Juju.
 
 <!--more-->
 
@@ -14,7 +14,7 @@ New to [Juju](https://jujucharms.com/)? Juju is a cool controller and agent base
 
 ## What does Jujuna do?
 
-Jujuna validates OpenStack charms upgrades from a specific bundle definition to a new OpenStack release. First, Jujuna automates the deployment of a specific OpenStack bundle with Juju into a testing stack. Next, it automates the upgrade of both the charms revisions and the actual OpenStack upgrade, including rolling upgrade of HA configurations based on the [OpenStack Charms Deployment Guide](https://docs.openstack.org/project-deploy-guide/charm-deployment-guide/latest/app-upgrade-openstack.html). Then, it validates the infrastructure status during and after the deployment. Finally, it can clean up the deployment.
+Jujuna validates OpenStack upgrades from your specific bundle definition to one of the OpenStack releases supported by the OpenStack charms. First, Jujuna automates the deployment of OpenStack in a testing model with Juju based on your bundle. Next, it automates the upgrade of both the charms revisions and the actual OpenStack release, including rolling upgrades of HA services (when possible) based on the steps from the [OpenStack Charms Deployment Guide](https://docs.openstack.org/project-deploy-guide/charm-deployment-guide/latest/app-upgrade-openstack.html). Then, it validates the status of the OpenStack services during and after the deployment. Finally, it can clean up the deployment.
 
 ## Why did we write Jujuna?
 
