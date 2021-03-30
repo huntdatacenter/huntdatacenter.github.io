@@ -5,5 +5,5 @@ permalink: /about/
 ---
 
 <script>
-  window.location.href = "https://www.ntnu.edu/huntgenes/hunt-cloud/about";
+  window.location.href = "https://www.ntnu.edu/mh/huntcloud";
 </script>
